@@ -1,0 +1,39 @@
+.form{
+    border: 2px solid black;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: blueviolet;
+}
+.head{
+    background-color: rgb(58, 45, 45);
+    
+    text-align: center;
+    color: skyblue;
+
+}
+.div1{
+    font-size: 30px;
+    text-align: center;
+
+}
+.div2{
+    font-size: 30px;
+    text-align: center;
+}
+.div3{
+    font-size: 30px;
+    text-align: center;
+
+}
+.submit{
+    font-size: 50px;
+    text-align: center;
+    color:green;
+    border: 2px solid black;
+    size: 50px;
+}
+tr{
+    color: blue;
+}
+

@@ -1,0 +1,27 @@
+{% load static %}
+<html>
+    <head>
+        <title>add</title>
+
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+    </head>
+ <body>
+    <h1 class="head">Add member</h1>
+
+    <form action="addrecord/" method="post" class="form">
+    {% csrf_token %}
+    <div class="div1"> First Name:
+    <input name="first"></div>
+    <br><br>
+    <div class="div2">Last Name:
+    <input name="last"></div>
+    <br><br>
+    <div class="div3">Date Of Birth:
+    <input type="date"name="dob"></div>
+    <br><br>
+    <div class="submit" ><input type="submit" value="Submit" ></div>
+    </form>
+    
+
+ </body>
+ </html>      
